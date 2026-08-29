@@ -1,0 +1,56 @@
+html {
+color:rgb(49, 132, 151);
+background-color: rgb(220, 235, 245);
+padding: 20px;
+font-size: 40px;
+}
+
+@font-face {
+    font-family: 'rainyhearts';
+    src: url(fonts/rainyhearts.ttf) format('truetype');
+}
+
+button {
+    font-family:'rainyhearts', sans-serif;
+    font-size: 30px;
+    background-color:rgb(70, 152, 174);
+}
+
+button:hover {
+    background-color:rgb(96, 177, 189);
+}
+
+
+body {
+    font-family: 'rainyhearts', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.a {
+    color: 'white'
+}
+
+#header {
+    background: #49bede;
+    width: 100vw;
+    height: 12vh;
+    color: #0b4254;
+    font-size: 7vh;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.content {
+  padding-top: 40vh;
+}
+
+#assignments {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}

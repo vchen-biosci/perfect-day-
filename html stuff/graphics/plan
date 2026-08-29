@@ -1,0 +1,14 @@
+Opens up like
+Main: Myclescholar
+Big box collection of aesthetic deadlines I guess
+Theme change with input of colourpicker that is then set to different colour rgbs across pages
+
+
+Page 1 (box change)
+Customise the boxes and write a script to change the text
+Code some sorting orders to sort the boxes e.g date, alphabetical, priority (default priority is 0, highest priority is 5, can look sth like a huffman?)
+Toggle boxes between assignment and project/both
+Can open up into a timeline
+
+(assignments view)
+Maybe something like a spreadsheet or jusst 
