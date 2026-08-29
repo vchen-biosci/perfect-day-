@@ -53,4 +53,9 @@ body {
     background-color: #49bede;
     width: 50%;
     height: 50%;
+    
+}
+
+.block {
+    align-items: center;
 }
