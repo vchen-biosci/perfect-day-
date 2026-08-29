@@ -9,11 +9,9 @@ document.querySelector("#assignmentsButton").addEventListener('click', () => {
     document.querySelector("#assignments").style.visibility = 'visible';
 })
 
-
 document.querySelector("#hideAssignmentsButton").addEventListener('click', () => {
     document.querySelector("#assignments").style.visibility = 'hidden';
 })
-
 
 document.querySelector("#changeTask1").addEventListener('click', () => {
     firstTask = prompt("What's your first task of the day?")
@@ -31,10 +29,13 @@ document.querySelector("#addTask").addEventListener('click', () => {
     const div = document.createElement('div');
     div.classList.add('block');
     const h = document.createElement('h2');
-    h.classList = "Block" + taskNumber;
+    h.textContent = "Block" + taskNumber;
     const p = document.createElement('p');
-    p.classList = defaultText;
+    p.textContent = defaultText;
     const button = document.createElement('button');
-    button.classList.add('button');
     button.classList.contains = "Change Task";
+    document.querySelector("#assignments").appendChild(div)
+    div.appendChild(h)
+    div.appendChild(p)
+    div.appendChild(button)
 })
