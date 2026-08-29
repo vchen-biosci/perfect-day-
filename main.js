@@ -32,10 +32,9 @@ document.querySelector("#addTask").addEventListener('click', () => {
     h.textContent = "Block" + taskNumber;
     const p = document.createElement('p');
     p.textContent = defaultText;
-    const button = document.createElement('button');
-    button.classList.contains = "Change Task";
+    const b = document.createElement('button');
+    b.classList.contains = "Change Task";
     document.querySelector("#assignments").appendChild(div)
     div.appendChild(h)
     div.appendChild(p)
-    div.appendChild(button)
 })
