@@ -26,15 +26,15 @@ document.querySelector("#changeTask2").addEventListener('click', () => {
 })
 
 document.querySelector("#addTask").addEventListener('click', () => {
-    taskNumber = taskNumber + 1
-    defaultText = prompt("What's the task about?")
-    const div = document.createElement('div')
-    div.classList.add('block')
-    const h = document.createElement('h2')
-    h.classList = "Block" + taskNumber
-    const p = document.createElement('p')
-    p.classList = defaultText
-    const button = document.createElement('button')
-    button.classList.add('button')
-    button.classList.contains = "Change Task"
+    taskNumber = taskNumber + 1;
+    defaultText = prompt("What's the task about?");
+    const div = document.createElement('div');
+    div.classList.add('block');
+    const h = document.createElement('h2');
+    h.classList = "Block" + taskNumber;
+    const p = document.createElement('p');
+    p.classList = defaultText;
+    const button = document.createElement('button');
+    button.classList.add('button');
+    button.classList.contains = "Change Task";
 })
