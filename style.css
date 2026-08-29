@@ -53,9 +53,17 @@ body {
     background-color: #49bede;
     width: 50%;
     height: 50%;
+    display: grid;
+
     
 }
 
 .block {
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
