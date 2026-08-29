@@ -1,6 +1,7 @@
 Myclescholar
 A simple task manager coded with html, css and javascript. 
 
+![Uploading Screenshot 2026-08-29 at 19.09.38.png…]()
 
 
 Demo link: [https://vchen-biosci.github.io/perfect-day-/]
