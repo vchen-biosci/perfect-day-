@@ -12,4 +12,4 @@ Features:
 
 Credits and Acknowledgements:
 Made with the help of everyone at Hack Club Sunbeam Hong Kong 29/08/26!
-Special mention to Lorin, master web dev!!
+Special mention to Lorin, master web dev!! ([github.com/aeroghurt])
